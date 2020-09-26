@@ -1,0 +1,22 @@
+Wallpaper Auto Change Version 1.0.0
+
+Wallpaper config file generator for ubuntu
+
+usage: wac -i[input directory] -o[output file] [-r] -k[keep time] -t[tran time]
+	[input directory]
+		Directory where to scan the photo files
+
+	[output file]
+		Generated config file
+
+	[keep time]
+		how long to keep a wall paper, in seconds
+
+	[tran time]
+		duration to change another wall paper, in seconds
+
+Wall paper config file in Ubuntu is at (1)[/usr/share/backgrounds/contest]
+and (2)[/usr/share/gnome-background-properties], put the generated config
+file to (1), and make a wallpaper config file at (2) which refers to the
+generated config file at (1). Finally goto Ubuntu Settings - Background
+and select the wallpaper config with the name you just set at (2).
